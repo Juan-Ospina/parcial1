@@ -9,5 +9,5 @@ int main()
 	    int cols;
 	    int rows;
 
-	    cout << "Ingresa nro de filas: ";
-    cin >> rows;
+	    cout << "Ingresa numero de filas: ";
+    	cin >> rows;
