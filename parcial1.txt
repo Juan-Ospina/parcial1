@@ -49,3 +49,6 @@ int main()
 
 	    // Elimino el vector principal
    		delete[] pm;
+
+   		return 0;<!--EndFragment-->
+}
