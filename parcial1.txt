@@ -3,3 +3,8 @@ using namespace std;
 
 int main()
 {
+	// Puntero a una matriz
+	    int **pm;
+	 
+	    int cols;
+	    int rows;
