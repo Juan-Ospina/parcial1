@@ -19,4 +19,4 @@ int main()
 	    pm = new int* [rows];
     	for (int i = 0; i < rows; i++) {
         pm[i] = new int[cols];
-}
+		}
