@@ -30,3 +30,14 @@ int main()
 	        }
 	        cout << endl;
     	}
+
+    	cout << "Elementos de la Matriz con sus direcciones, con aritmética de punteros: " << endl;
+	    for (int i = 0; i < rows; i++) {
+	        for (int j = 0; j < cols; j++) {
+	            // Aritmética de punteros
+	            *(*(pm + i) + j) = i + j;
+	            cout << *(*(pm + i) + j) << "--> ";
+	            cout << &pm[i][j] << endl;
+	        }
+	        cout << endl;
+	    }
