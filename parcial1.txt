@@ -11,3 +11,7 @@ int main()
 
 	    cout << "Ingresa numero de filas: ";
     	cin >> rows;
+
+    	cout << endl;
+	    cout << "Ingresa nro de columnas: ";
+	    cin >> cols;
