@@ -8,3 +8,6 @@ int main()
 	 
 	    int cols;
 	    int rows;
+
+	    cout << "Ingresa nro de filas: ";
+    cin >> rows;
